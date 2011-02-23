@@ -4,7 +4,7 @@ bnb1:
     no_script_name:         off
     cache:                  on
     etag:                   off
-    web_debug:              on
+    web_debug:              off
 devel:
   .settings:
     error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
