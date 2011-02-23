@@ -13,7 +13,9 @@ class generalActions extends sfActions
 {
   private function isUserAgentSupported($user_agent)
   {
-    return strstr($user_agent, 'Firefox') || strstr($user_agent, 'Iceweasel') || strstr($user_agent, 'GranParadiso') || strstr($user_agent, 'Opera');
+    // FIXME
+    //return strstr($user_agent, 'Firefox') || strstr($user_agent, 'Iceweasel') || strstr($user_agent, 'GranParadiso') || strstr($user_agent, 'Opera');
+    return true;
   }
 
     /**

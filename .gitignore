@@ -1,14 +1,18 @@
+# Symfony
 cache/*
 log/*
 config/databases.yml
 data/sql/schema.sql
 web/.htaccess
 web/sf*
-config/app.yml
 config/propel.ini
 data/sql/lib.model.schema.sql
 lib/form/base/*
 lib/model/map/*
 lib/model/om/*
+# Application
+config/app.yml
+apps/backend/config/app.yml
+apps/frontend/config/app.yml
 nbproject/*
 .svn
