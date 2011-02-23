@@ -1,0 +1,40 @@
+all:
+  default_view: calendar
+  calendar_view:
+    note_preview_length: 5
+    default_length: 7
+    full_limit: 15
+  reservations_view:
+    rows_per_page: 50
+bnb1:
+  .array:
+    rooms:
+      -
+        type: Superior
+        name: D1
+      -
+        type: Superior
+        name: D2
+      -
+        type: Superior
+        name: D3
+      -
+        type: Superior
+        name: D4
+      -
+        type: Superior
+        name: D5
+      -
+        type: Superior
+        name: D6
+      -
+        type: Apartment
+        name: Thyme
+      -
+        type: Apartment
+        name: Sage
+      -
+        type: Apartment
+        name: Cimas
+  username: admin
+  password: 21232f297a57a5a743894a0e4a801fc3

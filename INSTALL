@@ -1,0 +1,44 @@
+INSTALL
+
+Required steps after unpacking the archive in your webroot:
+
+1) Configure your mysql/pgsql database:
+
+    cp config/databases.yml.mysql-template config/databases.yml
+    edit config/databases.yml
+    cp config/propel.ini.mysql-template config/propel.ini
+    edit config/propel.ini
+
+2) Create cache and log folder:
+
+    mkdir cache
+    mkdir log
+    chmod 777 cache log
+
+3) Configure the applications:
+
+    cp ./config/app.yml.template ./config/app.yml
+    edit ./config/app.yml
+    cp ./apps/frontend/config/app.yml.template ./apps/frontend/config/app.yml
+    edit ./apps/frontend/config/app.yml
+    cp ./apps/backend/config/app.yml.template ./apps/backend/config/app.yml
+    edit ./apps/backend/config/app.yml
+
+4) Build database schema
+
+    ./symfony propel:build-all
+    If no red errors raise, your database is configured correctly.
+
+ii) Workaround for PHP 5.3
+    
+    ./lib/vendor/symfony/lib/plugins/sfPropelPlugin/lib/vendor/creole/CreoleTypes.php
+  
+    Find:
+        const TEXT = 17;
+    con:
+      const TEXT = 30;
+
+
+ii) Error: [propel-sql] Could not perform XSLT transformation.  Make sure PHP has been compiled/configured to support XSLT.
+
+    sudo apt-get install php5-xsl

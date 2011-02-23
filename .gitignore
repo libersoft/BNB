@@ -1,0 +1,14 @@
+cache/*
+log/*
+config/databases.yml
+data/sql/schema.sql
+web/.htaccess
+web/sf*
+config/app.yml
+config/propel.ini
+data/sql/lib.model.schema.sql
+lib/form/base/*
+lib/model/map/*
+lib/model/om/*
+nbproject/*
+.svn

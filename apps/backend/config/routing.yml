@@ -1,0 +1,12 @@
+homepage:
+  url:   /
+  param: { module: calendar, action: index, sf_culture: en }
+
+calendar_goto:
+  url:   /:module/:action/:when
+  requirements: { module: calendar, action: goto }
+  param: { sf_culture: en }
+
+default:
+  url: /:module/:action/*
+  param: { sf_culture: en }

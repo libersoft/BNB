@@ -1,0 +1,13 @@
+default:
+  http_metas:
+    content-type: text/html
+  metas:
+    title:        Reservation request form
+    robots:       index, follow
+    description:  Reservation system for small structures, public part.
+    keywords:     bnb
+    language:     en
+  stylesheets:    [ common, frontend ]
+  javascripts:    []
+  has_layout:     on
+  layout:         layout

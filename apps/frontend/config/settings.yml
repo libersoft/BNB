@@ -1,0 +1,38 @@
+bnb1:
+  .settings:
+    logging_enabled:        off
+    no_script_name:         off
+    cache:                  on
+    etag:                   off
+
+dev:
+  .settings:
+    error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:              on
+    logging_enabled:        on
+    cache:                  off
+    no_script_name:         off
+    etag:                   off
+
+local:
+  .settings:
+    error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:              on
+    logging_enabled:        on
+    cache:                  off
+    no_script_name:         off
+    etag:                   off
+
+all:
+  .actions:
+    error_404_module:       reservation
+    error_404_action:       error404
+  .settings:
+    compat_10:              on
+    default_culture:        en
+    i18n:                   on
+    validation_error_prefix:    ' &darr;&nbsp;'
+    validation_error_suffix:    ' &nbsp;&darr;'
+    standard_helpers:       [I18N]
+    enabled_modules:        [default, reservarion]
+    charset:                utf-8

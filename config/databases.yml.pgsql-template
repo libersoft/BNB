@@ -1,0 +1,12 @@
+bnb1:
+  propel:
+    class: sfPropelDatabase
+    param:
+      phptype: pgsql
+      hostspec: localhost
+      database: bnb
+      username: bnb
+      password: bnb
+      port: 5432
+      encoding: utf8
+      persistent: true

@@ -1,0 +1,117 @@
+
+#calendar-cross {
+  font-weight: bold;
+  padding: 0.5em;
+  text-align: center;
+  border: 1px solid black;
+  background-color: #f0f1ff;
+}
+
+.calendar-day {
+  background-color: #dcddfb;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 0;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0.5em;
+  min-width: 0;
+}
+
+.calendar-day:hover {
+  background-color: #ffceb9;
+}
+
+.calendar-room {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: #dcddfb;
+  height: 3em;
+  padding: 0.4em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.calendar-cell {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #f0f1ff;
+}
+
+#calendar-menu
+{
+  text-align: center;
+}
+
+.calendar-reservation {
+  color: white;
+  font-weight: bold;
+  padding: 0.4em;
+  border-top: 0.3em solid #006400;
+  border-bottom: 0.3em solid #006400;
+  background-color: #85AA7C;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+.note-inline
+{
+  color: black;
+  font-weight: normal;
+  opacity: .80;
+  padding: 0.2em;
+  background-color: #ecec00;
+  border: 1px solid #c2c200;
+}
+
+.calendar-reservation:hover {
+  cursor: crosshair;
+  /*background-color: #ff5500;*/
+}
+
+.calendar-reservation-left {
+  -moz-border-radius-topleft: 0.6em;
+  -moz-border-radius-bottomleft: 0.6em;
+  border-left: 0.3em solid #006400;
+  margin-left: 0.3em;
+}
+
+.calendar-reservation-left-broken {
+  border-left: 0.3em dotted #006400;
+}
+
+.calendar-reservation-right {
+  -moz-border-radius-topright: 0.6em;
+  -moz-border-radius-bottomright: 0.6em;
+  border-right: 0.3em solid #006400;
+  margin-right: 0.3em;
+}
+
+.calendar-reservation-right-broken {
+  border-right: 0.3em dotted #006400;
+}
+
+.calendar-reservation-past {
+  opacity: 0.4;
+}
+
+.calendar-reservation-uncomplete {
+  border-color: red;
+}
+
+#candidates-header tr th {
+  background-color: #dcddfb;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 0;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 120%;
+  padding: 1em;
+}
+

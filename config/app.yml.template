@@ -1,0 +1,64 @@
+all:
+  minimum_stay: 1
+  arrival_times:
+    available:
+      -
+        name: 2am
+        description: 2am
+      -
+        name: 4pm
+        description: 4pm
+  credit_cards:
+    accepted:
+      - Visa
+      - Master Card
+      - American Express
+    unaccepted:
+      - PincoCard
+  .array:
+    room_types:
+      -
+        name: Superior
+        description: Superior room (ensuites bathroom)
+        arrangements:
+          -
+            name: SGL
+            description: Single occupancy
+          -
+            name: TWIN
+            description: Two single beds
+          -
+            name: DBL
+            description: Double
+          -
+            name: QEN+SNG
+            description: Triple (one queen bed + one single bed)
+          -
+            name: TRPL
+            description: Three single beds
+          -
+            name: QUAD
+            description: Quad occupancy
+      -
+        name: Classic
+        description: Classic room (private bathroom)
+        arrangements:
+          -
+            name: SNG
+            description: Single occupancy
+          -
+            name: DBL
+            description: Double occupancy
+      -
+        name: Apartment
+        description: Apartment (self contained)
+        arrangements:
+          -
+            name: 2DBL
+            description: Two double beds
+          -
+            name: DBL+2SNG
+            description: One double bed and two single beds
+          -
+            name: 4SNG
+            description: Four single beds

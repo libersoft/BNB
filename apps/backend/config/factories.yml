@@ -1,0 +1,29 @@
+cli:
+  controller:
+    class: sfConsoleController
+  request:
+    class: sfConsoleRequest
+  response:
+    class: sfConsoleResponse
+
+test:
+  storage:
+    class: sfSessionTestStorage
+
+all:
+  routing:
+    class: sfPatternRouting
+    param:
+      load_configuration: true
+      variable_prefixes:  [':']
+      segment_separators: ['/', '.']
+      variable_regex:     '[\w\d_]+'
+      debug:              %SF_DEBUG%
+      logging:            %SF_LOGGING_ENABLED%
+      cache:
+        class: sfFileCache
+        param:
+          automatic_cleaning_factor: 0
+          cache_dir:                 %SF_CONFIG_CACHE_DIR%/routing
+          lifetime:                  31556926
+          prefix:                    %SF_APP_DIR%

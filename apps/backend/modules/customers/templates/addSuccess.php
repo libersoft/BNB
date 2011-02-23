@@ -1,0 +1,1 @@
+Here will be possible to manually add a new customer.

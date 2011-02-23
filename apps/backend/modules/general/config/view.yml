@@ -1,0 +1,3 @@
+default:
+  layout: public
+  stylesheets:    [ common, frontend ]

@@ -1,0 +1,2 @@
+all:
+  stylesheets: [ backend_calendar ]

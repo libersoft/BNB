@@ -1,0 +1,11 @@
+localized:
+  url: /:sf_culture/:action
+  requirements: { sf_culture: (?:it|en) }
+  param: { module: reservation }
+
+homepage:
+  url:   /
+  param: { module: reservation, action: index }
+
+default:
+  url:   /:module/:action/*

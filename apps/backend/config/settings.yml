@@ -1,0 +1,24 @@
+bnb1:
+  .settings:
+    logging_enabled:        on
+    no_script_name:         off
+    cache:                  on
+    etag:                   off
+    web_debug:              on
+devel:
+  .settings:
+    error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:              on
+    cache:                  off
+    no_script_name:         off
+    etag:                   off
+
+all:
+  .actions:
+    error_404_module:       general
+    error_404_action:       error404
+    login_module:           general
+    login_action:           login
+  .settings:
+    i18n:                   on
+    charset:                utf-8

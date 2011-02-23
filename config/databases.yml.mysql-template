@@ -1,0 +1,5 @@
+bnb1:
+  propel:
+    class: sfPropelDatabase
+    param:
+      dsn: mysql://user:pass@localhost/bnb1

@@ -1,0 +1,17 @@
+fields:
+  date_from:
+    required:
+      msg: Arrive date mandatory
+    sfDateValidator:
+  date_to:
+    required:
+      msg: Check-out date mandatory
+    sfDateValidator:
+fillin:
+  enabled: true
+  param:
+    check_types: [text, select]
+    content_type: xml
+    converters:
+      htmlentities: [*]
+      htmlspecialchars: [*]

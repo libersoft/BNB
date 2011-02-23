@@ -1,0 +1,253 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2008-09-10 17:02:15\n"
+
+msgid "Room type"
+msgstr "Tipologia stanza"
+
+msgid "Room arrangement"
+msgstr "Sistemazione stanza"
+
+msgid "Room count"
+msgstr "Quantità"
+
+msgid "Please use the upper form to populate your reservation with rooms."
+msgstr ""
+
+msgid "You can see your data below. Click on the confirm button to submit us your reservation request or go back to modify your data."
+msgstr ""
+
+msgid "Write the text contained in the upper image:"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Page not found. Were you looking for "
+msgstr ""
+
+msgid "reservations page"
+msgstr ""
+
+msgid "Thank you for Your Reservation Request!"
+msgstr ""
+
+msgid "Name:"
+msgstr ""
+
+msgid "Surname:"
+msgstr ""
+
+msgid "From:"
+msgstr ""
+
+msgid "To:"
+msgstr ""
+
+msgid "Rooms:"
+msgstr ""
+
+msgid "This is an automated email sent to you from the BnB reservatin system, please do not reply. You will be contacted soon by an our staff member to finalize your reservation request."
+msgstr ""
+
+msgid "Confirmation required"
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Your reservation details"
+msgstr ""
+
+msgid "Total stay:"
+msgstr ""
+
+msgid "night(s)"
+msgstr ""
+
+msgid "Expected arrival time:"
+msgstr ""
+
+msgid "Your personal details"
+msgstr ""
+
+msgid "E-mail:"
+msgstr ""
+
+msgid "Address:"
+msgstr ""
+
+msgid "Postal code:"
+msgstr ""
+
+msgid "City:"
+msgstr ""
+
+msgid "Country:"
+msgstr ""
+
+msgid "State:"
+msgstr ""
+
+msgid "Home telephone:"
+msgstr ""
+
+msgid "Mobile telephone:"
+msgstr ""
+
+msgid "FAX number:"
+msgstr ""
+
+msgid "Credit card informations"
+msgstr ""
+
+msgid "Credit card type:"
+msgstr ""
+
+msgid "Credit card expiry date:"
+msgstr ""
+
+msgid "Credit card number:"
+msgstr ""
+
+msgid "Card verification value:"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Errors were found in your confirmation request and are marked in red in the rest of the page, please check supplied information and retry."
+msgstr ""
+
+msgid "Personal data"
+msgstr ""
+
+msgid "E-mail address:"
+msgstr ""
+
+msgid "State (if any):"
+msgstr ""
+
+msgid "Mobile telephone (possibly bring with you during your trip):"
+msgstr ""
+
+msgid "marked fields are mandatory."
+msgstr ""
+
+msgid "marked fields and credit card information are necessary only in case of confirmation."
+msgstr ""
+
+msgid "Card Verification Value:"
+msgstr ""
+
+msgid "Finalize"
+msgstr ""
+
+msgid "Proceed"
+msgstr ""
+
+msgid "Your reservation request has been successful submitted to us. You should receive an email with your reservation request details soon."
+msgstr ""
+
+msgid "Reservation policy"
+msgstr ""
+
+msgid "Minimum stay <strong>two nights</strong>."
+msgstr ""
+
+msgid "Rooms details:"
+msgstr ""
+
+msgid "Select room:"
+msgstr ""
+
+msgid "Room type:"
+msgstr ""
+
+msgid "Room arrangement:"
+msgstr ""
+
+msgid "Room count:"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Selected rooms:"
+msgstr ""
+
+msgid "Stay details"
+msgstr ""
+
+msgid "To (minimim stay two nights):"
+msgstr ""
+
+msgid "You should specify security number"
+msgstr ""
+
+msgid "You should specify a valid security number"
+msgstr ""
+
+msgid "Name is required"
+msgstr ""
+
+msgid "Name too short"
+msgstr ""
+
+msgid "Nome too long"
+msgstr ""
+
+msgid "Surname is required"
+msgstr ""
+
+msgid "Surname too short"
+msgstr ""
+
+msgid "Surname too long"
+msgstr ""
+
+msgid "E-mail address is required"
+msgstr ""
+
+msgid "Given e-mail addres is not valid"
+msgstr ""
+
+msgid "Address too short"
+msgstr ""
+
+msgid "Address too long"
+msgstr ""
+
+msgid "Invalid postal code"
+msgstr ""
+
+msgid "City name too short"
+msgstr ""
+
+msgid "City name too long"
+msgstr ""
+
+msgid "State name too short"
+msgstr ""
+
+msgid "State name too long"
+msgstr ""
+
+msgid "Country name too short"
+msgstr ""
+
+msgid "Country name too long"
+msgstr ""
+
+msgid "Invalid credit card number"
+msgstr ""
+
+msgid "Invalid card secure code"
+msgstr ""
+
+msgid "Arrive date mandatory"
+msgstr ""
+
+msgid "Check-out date mandatory"
+msgstr ""
+

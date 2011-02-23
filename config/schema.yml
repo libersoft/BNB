@@ -1,0 +1,49 @@
+propel:
+  _attributes:
+    package: lib.model
+  customer:
+    _attributes: { phpName: Customer }
+    id:
+    created_at:
+    name: { type: VARCHAR, size: '255', required: true }
+    surname: { type: VARCHAR, size: '255', required: true }
+    email: { type: VARCHAR, size: '255' }
+    address: { type: VARCHAR, size: '255' }
+    zip: { type: VARCHAR, size: '255' }
+    city: { type: VARCHAR, size: '255' }
+    country: { type: VARCHAR, size: '2' }
+    state: { type: VARCHAR, size: '255' }
+    phone: { type: VARCHAR, size: '255' }
+    mobile: { type: VARCHAR, size: '255' }
+    fax: { type: VARCHAR, size: '255' }
+    cc_type: { type: VARCHAR, size: '64' }
+    cc_expire_month: { type: VARCHAR, size: '2' }
+    cc_expire_year: { type: VARCHAR, size: '4' }
+    cc_number: { type: VARCHAR, size: '16' }
+    cc_securcode: { type: VARCHAR, size: '4' }
+    comments: { type: LONGVARCHAR }
+    language: { type: VARCHAR, size: '2' }
+    ip: { type: VARCHAR, size: '15' }
+  reservation:
+    _attributes: { phpName: Reservation }
+    id:
+    customer_id: { type: INTEGER, foreignTable: customer, foreignReference: id, onDelete: cascade }
+    arrival_time: { type: INTEGER, required: true }
+    day_from: { type: INTEGER, required: true }
+    day_to: { type: INTEGER, required: true }
+    notes: { type: LONGVARCHAR }
+    arrival_time_orig: { type: INTEGER, required: true }
+    day_from_orig: { type: INTEGER, required: true }
+    day_to_orig: { type: INTEGER, required: true }
+    type_orig: { type: INTEGER, required: true }
+    arrangement_orig: { type: INTEGER }
+  reservation_part:
+    _attributes: { phpName: ReservationPart }
+    id:
+    reservation_id: { type: INTEGER, foreignTable: reservation, foreignReference: id, onDelete: cascade }
+    customer_id: { type: INTEGER, foreignTable: customer, foreignReference: id, onDelete: cascade }
+    type: { type: INTEGER, required: true }
+    arrangement: { type: INTEGER }
+    room: { type: INTEGER }
+    day_from: { type: INTEGER }
+    day_to: { type: INTEGER }

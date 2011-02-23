@@ -1,0 +1,77 @@
+fields:
+  name:
+    required:
+      msg: Name is required
+    sfStringValidator:
+      min: 2
+      min_error: Name too short
+      max: 100
+      max_error: Nome too long
+  surname:
+    required:
+      msg: Surname is required
+    sfStringValidator:
+      min: 2
+      min_error: Surname too short
+      max: 100
+      max_error: Surname too long
+  email:
+    required:
+      msg: E-mail address is required
+    sfEmailValidator:
+      strict: true
+      email_error: Given e-mail addres is not valid
+  address:
+    sfStringValidator:
+      min: 2
+      min_error: Address too short
+      max: 100
+      max_error: Address too long
+  zip:
+    sfStringValidator:
+      min: 2
+      max: 20
+      min_error: Invalid postal code
+      max_error: Invalid postal code
+  city:
+    sfStringValidator:
+      min: 2
+      min_error: City name too short
+      max: 100
+      max_error: City name too long
+  state:
+    sfStringValidator:
+      min: 2
+      min_error: State name too short
+      max: 255
+      max_error: State name too long
+  country:
+    sfStringValidator:
+      min: 2
+      min_error: Country name too short
+      max: 255
+      max_error: Country name too long
+  cc_number:
+    sfStringValidator:
+      min: 16
+      max: 16
+      min_error: Credit card number is too short
+      max_error: Credit card number is too long
+    sfNumberValidator:
+      nan_error: Invalid credit card number
+  cc_securcode:
+    sfStringValidator:
+      min: 3
+      max: 4
+      min_error: Invalid card secure code
+      max_error: Invalid card secure code
+    sfNumberValidator:
+      nan_error: Invalid card secure code
+fillin:
+  enabled: true
+  param:
+    check_types: [text, select, textarea]
+    content_type: xml
+    converters:
+      htmlentities: [*]
+      htmlspecialchars: [*]

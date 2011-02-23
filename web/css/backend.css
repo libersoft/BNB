@@ -1,0 +1,141 @@
+h1
+{
+  border-bottom: 0.1em solid #ff5500;
+  font-size: 2em;
+  color: #05006e;
+  margin-top: 0;
+  padding: 1%;
+  background-color: #9593b9;
+  margin-bottom: 0.2em;
+  width: 100%;
+}
+
+#content
+{
+  padding: 1%;
+}
+
+h2
+{
+  border-bottom: 0.1em solid #ff5500;
+  font-size: 1.5em;
+  color: #05006e;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+
+img
+{
+  margin: 0;
+  padding: 0.1em;
+  vertical-align: middle;
+}
+
+
+.horizontal-menu {
+  clear: both;
+}
+
+.horizontal-menu li {
+  margin: 0.1em;
+  display: inline;
+}
+
+label {
+  width: 12em;
+  float: left;
+  text-align: left;
+  font-weight: bold;
+}
+
+.container {
+  clear: both;
+  margin: 0.3em;
+  text-align: left;
+  width: 40em;
+}
+
+tr.header td
+{
+  background-color: #ffceb9;
+  padding: 0.3em;
+  text-align: center;
+  font-weight: bold;
+}
+
+tr.odd td
+{
+  background-color: #f0f1ff;
+  text-align: center;
+}
+
+tr.even td
+{
+  background-color: #dcddfb;
+  text-align: center;
+}
+
+.vertical-menu
+{
+  text-align: right;
+}
+
+
+#main-menu li
+{
+  font-weight: bold;
+}
+
+.vertical-menu li
+{
+  margin: 0.5em;
+  display: inline;
+}
+
+.pager {
+  width: 100%;
+  text-align: center;
+  margin: 1em;
+  clear: both;
+}
+
+.pager a, .pager span {
+  padding: 0.2em;
+  margin: 0.3em;
+  border: 1px solid #dcddfb;
+  background-color: #f0f1ff;
+}
+
+.pager span {
+  background-color: #dcddfb;
+  font-weight: bold;
+}
+
+.pager a:hover {
+  background-color: #dcddfb;
+}
+
+
+.popup {
+  padding: 0;
+  background-color: #d8f5ff;
+  border: 1px solid #4c85be;
+  position: absolute;
+  display: none;
+  z-index: 10;
+  color: black;
+  width: auto;
+}
+
+
+.popup-title {
+  color: #dcddfb;
+  font-weight: bold;
+  background-color: #4c85be;
+  text-align: right;
+}
+
+.popup-title a {
+  color: #d8f5ff;
+}

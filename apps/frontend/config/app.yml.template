@@ -1,0 +1,38 @@
+all:
+  languages:
+    available:
+      it: Passa alla versione in italiano
+      en: Switch to english version
+    unavailable:
+      de: Versione tedeschia
+      fr: Versione francese
+      es: Versione spagnola
+  customer_email:
+    sender: noreply@yourdomain.com
+    subject: Your reservation request!
+    reply_to: info@yourdomain.com
+  policy:
+    it: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare accumsan velit. Phasellus et mi in urna elementum ornare. Fusce sit amet dolor ac ipsum mattis vestibulum. Donec malesuada luctus odio. Ut vitae ante. Sed feugiat ultricies ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus risus. Mauris nec magna accumsan risus blandit faucibus. Vivamus sed libero. Nam vitae tortor sit amet velit lacinia porttitor. Aliquam justo nulla, accumsan in, semper at, consectetur at, ipsum. Pellentesque gravida mattis nibh. Cras suscipit, diam non tempor lacinia, nulla nisl volutpat neque, ut sagittis nibh eros ut risus. Integer bibendum. Aliquam et eros a nisi dictum convallis. Integer molestie, lectus sit amet consequat fringilla, velit mi ultricies mauris, vitae aliquet elit lorem sit amet orci. <br />
+    en: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare accumsan velit. Phasellus et mi in urna elementum ornare. Fusce sit amet dolor ac ipsum mattis vestibulum. Donec malesuada luctus odio. Ut vitae ante. Sed feugiat ultricies ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus risus. Mauris nec magna accumsan risus blandit faucibus. Vivamus sed libero. Nam vitae tortor sit amet velit lacinia porttitor. Aliquam justo nulla, accumsan in, semper at, consectetur at, ipsum. Pellentesque gravida mattis nibh. Cras suscipit, diam non tempor lacinia, nulla nisl volutpat neque, ut sagittis nibh eros ut risus. Integer bibendum. Aliquam et eros a nisi dictum convallis. Integer molestie, lectus sit amet consequat fringilla, velit mi ultricies mauris, vitae aliquet elit lorem sit amet orci. <br />
+bnb1:
+  customer_email:
+    sender: noreply@yourdomain.com
+    subject: Your reservation request!
+    reply_to: noreply@yourdomain.com
+  admin_email:
+    receivers:
+      - admin@yourdomain.com
+    subject: New reservation request!
+    sender_address: noreply@yourdomain.com
+    sender_description: BnB automated notification sender
+  panel_url: http://yourdomain.com/bnb1/backend.php
+  policy:
+    it: |
+      Rispondiamo sempre alle richieste cercando di farlo entro le 12 ore se non prima.<br />
+      Rispondiamo anche in caso di mancata disponibilità.<br /><br />
+    en: |
+      We always respond to our requests and aim to do this within 12 hours and hopefully
+      much sooner.<br />
+      We do this even when we have no availability.<br /><br />

@@ -1,0 +1,1 @@
+<?php include_partial('calendar', $calendar_vars) ?>

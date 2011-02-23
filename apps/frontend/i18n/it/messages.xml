@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="it" datatype="plaintext" original="messages" date="2009-02-27T11:34:14Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Room type</source>
+        <target>Tipologia stanza</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Room arrangement</source>
+        <target>Sistemazione stanza</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Room count</source>
+        <target>Quantità</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Please use the upper form to populate your reservation with rooms.</source>
+        <target>Usare il modulo qui sopra per aggiungere stanze alla prenotazione.</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Please review your data below. Click on the confirm button to submit us your reservation request.</source>
+        <target>Controllare i dati. Quindi cliccare sul pulsante di conferma per inviare la richiesta di prenotazione.</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Confirm</source>
+        <target>Conferma</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Error 404, page not found</source>
+        <target>Errore 404, la pagina non è stata trovata</target>
+        <target/>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>The page you were looking for cannot be found. Were you looking for </source>
+        <target>La pagina richiesta non è stata trovata. Si stava cercando </target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>reservations page</source>
+        <target>pagina prenotazioni</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Thank you for Your Reservation Request!</source>
+        <target>Grazie per aver fatto una richiesta di prenotazione!</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Name:</source>
+        <target>Nome:</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Surname:</source>
+        <target>Cognome:</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>From:</source>
+        <target>Da:</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>To:</source>
+        <target>A:</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Confirmation required</source>
+        <target>È richiesta conferma</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Summary</source>
+        <target>Riepilogo</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Your reservation details</source>
+        <target>Dettagli della prenotazione</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Total stay:</source>
+        <target>Durata soggiorno:</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>night(s)</source>
+        <target>notte(i)</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Expected arrival time:</source>
+        <target>Orario di arrivo previsto:</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Your personal details</source>
+        <target>Dettagli personali</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>E-mail:</source>
+        <target>Posta elettronica:</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Address:</source>
+        <target>Indirizzo:</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Postal code:</source>
+        <target>Codice postale:</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>City:</source>
+        <target>Città:</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>Country:</source>
+        <target>Nazione:</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>State:</source>
+        <target>Regione:</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Home telephone:</source>
+        <target>Telefono di casa:</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Mobile telephone:</source>
+        <target>Telefono cellulare:</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>FAX number:</source>
+        <target>Numero di FAX:</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Credit card informations</source>
+        <target>Informazioni sulla carta di credito</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Credit card type:</source>
+        <target>Tipo di carta di credito:</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Credit card expiry date:</source>
+        <target>Scadenza carta di credito:</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>Credit card number:</source>
+        <target>Numero carta di credito:</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Card verification value:</source>
+        <target>Numero di sicurezza carta:</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Comments</source>
+        <target>Commenti</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Errors were found in your confirmation request and are marked in red in the rest of the page, please check supplied information and retry.</source>
+        <target>Sono stati rilevati errori nella richiesta di prenotazione. Questi sono segnati in rosso del seguito, per favore controllare i dati forniti e riprovare.</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Personal data</source>
+        <target>Dati personali</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>Finalize</source>
+        <target>Completare</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Proceed</source>
+        <target>Procedere</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>Reservation policy</source>
+        <target>Politiche di richiesta prenotazione</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>Room arrangement:</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>Add</source>
+        <target>Aggiungi</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Stay details</source>
+        <target>Dettagli del soggiorno</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>Proceed to insert personal data</source>
+        <target>Procedere all'inserimento dei dati personali</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>Name is required</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>Name too short</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>Nome too long</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>Surname is required</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>Surname too short</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>Surname too long</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>E-mail address is required</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>Given e-mail addres is not valid</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>Address too short</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>Address too long</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>Invalid postal code</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>City name too short</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>City name too long</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>State name too short</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>State name too long</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>Country name too short</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>Country name too long</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>Credit card number is too short</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>Credit card number is too long</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>Invalid credit card number</source>
+        <target>Numero di carta di credito non valido</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>Invalid card secure code</source>
+        <target>Numero di sicurezza non valido</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>Arrive date mandatory</source>
+        <target>Data di arrivo obbligatoria</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>Check-out date mandatory</source>
+        <target>Data di partenza obbligatoria</target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source> Remove this room(s) </source>
+        <target> Rimuovere stanza(e) </target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>Click to confirm</source>
+        <target>Clicca per confermare</target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>Name</source>
+        <target>Nome</target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>Surname</source>
+        <target>Cognome</target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>From</source>
+        <target>Dal</target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>To</source>
+        <target>Al</target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>Rooms</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>This is an automated email sent to you from the BnB reservatin system, please do not reply. You will be contacted soon by an our staff member to finalize your reservation request</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>E-mail address</source>
+        <target>Indirizzo E-mail</target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>Address</source>
+        <target>Indirizzo</target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>Postal code</source>
+        <target>Codice postale</target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>City</source>
+        <target>Città</target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>Country</source>
+        <target>Nazione</target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>State (if any)</source>
+        <target>Regione (se necessario)</target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>Home telephone</source>
+        <target>Telefono domicilio</target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>Mobile telephone (possibly bring with you during your trip)</source>
+        <target>Telefono cellulare (da portare possibilmente durante il viaggio)</target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>FAX number</source>
+        <target>Numero di FAX</target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>marked fields are mandatory</source>
+        <target>i cambi segnati sono obbligatori</target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>marked fields and credit card information are necessary only in case of confirmation</source>
+        <target>i campi segnati e le informazioni sulla carta di credito sono necessari sono in caso di conferma</target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>Credit card type</source>
+        <target>Tipo di carta di credito</target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Credit card expiry date</source>
+        <target>Data di scadenza carta di credito</target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>Credit card number</source>
+        <target>Numero carta di credito</target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>Card Verification Value</source>
+        <target>Numero di sicurezza carta di credito</target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>We will advise you of availability as soon as possible and if appropriate send you our contract confirming reservation.&lt;br /&gt;
+We respond to all requests even when there is no availability.&lt;br /&gt;
+We aim to do this within 12 hours and hopefully, much sooner.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>Rooms details</source>
+        <target>Dettagli stanze</target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>Select room</source>
+        <target>Scelta stanza</target>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>Selected rooms</source>
+        <target>Stanze selezionate</target>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>Expected arrival time</source>
+        <target>Orario di arrivo previsto</target>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>Arrival date could not be in the past or today</source>
+        <target>La data di arrivo non può essere oggi o nel passato</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>You should "Add" at least one room. Please use the form above</source>
+        <target>Usare "Aggiungi" per inserire almeno una stanza. Per favore usare il modulo qui sopra</target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>Check-out date could not be the same day or before the arrival date</source>
+        <target>La data di partenza non può essere la stessa o precedente a quella di arrivo</target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>Minimum stay not respected</source>
+        <target>Durata minima del soggiorno non rispettata</target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>Field required if you specify a credit card number for confirmation</source>
+        <target>Campo richiesto se si specifica un numero di carta di credito per la conferma</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,1 @@
+<h2>You safely logged out.</h2>
