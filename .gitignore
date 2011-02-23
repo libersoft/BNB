@@ -12,3 +12,5 @@ lib/model/map/*
 lib/model/om/*
 nbproject/*
 .svn
+lib/vendor/symfony*
+plugins/
